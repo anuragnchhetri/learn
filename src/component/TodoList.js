@@ -24,7 +24,7 @@ const handleToggleTodo=(index)=>{
 };
   return (
     <div className="main">
-    <h1>To-do List</h1>
+    <h1>To-do List Updated</h1>
     <input type='text' value={newTodo} onChange={(e)=>{setNewTodo(e.target.value)}}/>
       <button onClick={handleAddTodo}>Add</button>
       <ul>
